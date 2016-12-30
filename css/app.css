@@ -1,0 +1,99 @@
+.italics{
+  font-style: italic;
+}
+
+.hero-buttons .button-container a{
+  color: white;
+}
+
+.hero-buttons .button-container:hover{
+  background-color: rgba(0,0,0,0.3);
+}
+
+.hero-buttons .button-container{
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px 10px 5px;
+  border-right: 1px solid rgba(0,0,0,0.8);
+}
+
+.hard-background{
+  background: #a3a5a1;
+}
+
+.soft-background{
+  background: #f1f1f1;
+}
+
+.no-bottom-margin{
+  margin-bottom: 0px;
+}
+
+.background-hero-image{
+  background-size: cover;
+  background-image: url("http://fakeimg.pl/1400x900?text=+");
+}
+
+.padding-push-bottom{
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 40em) {
+  .padding-push-bottom{
+    min-height: 400px;
+  }
+}
+
+.callout{
+  background: #e5e5e5;
+  border: none;
+}
+
+h1.condensed-bold,
+h2.condensed-bold,
+h3.condensed-bold,
+h4.condensed-bold,
+h5.condensed-bold{
+  text-transform: uppercase;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+}
+
+.max-width-300{
+  max-width: 300px;
+}
+
+.image-wrapper-circle{
+  overflow: hidden;
+  border-radius: 300px;
+}
+
+.vertical-padding{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.vertical-slide{
+  min-height: 100vh;
+}
+
+.hero{
+  position: relative;
+}
+
+.hero-buttons{
+  position: absolute;
+  bottom: 0px;
+}
+
+@media screen and (min-width: 40em) {
+  .hero{
+    min-height: 100vh;
+  }
+
+  .hero-padding{
+    padding-top: 10%;
+  }
+  .large-not-centered, .large-not-centered:last-child:not(:first-child){
+    float: right;
+    clear: none;
+  }
+}
