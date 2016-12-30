@@ -10,6 +10,27 @@
   background-color: rgba(0,0,0,0.3);
 }
 
+.thumbnail.thumbnail{
+  border: none;
+}
+
+@media screen and (min-width: 40em){
+  .text-content h4{
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+}
+
+.callout{
+  padding-top: 6vh;
+}
+
+.text-content a{
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+}
+
 .hero-buttons .button-container{
   background-color: rgba(0,0,0,0.5);
   padding: 10px 10px 5px;
@@ -28,9 +49,14 @@
   margin-bottom: 0px;
 }
 
+.background-hero-image h2{
+  color: white;
+  font-weight: 300;
+}
+
 .background-hero-image{
   background-size: cover;
-  background-image: url("http://fakeimg.pl/1400x900?text=+");
+  background-image: url("../img/hero-image.png");
 }
 
 .padding-push-bottom{
@@ -53,6 +79,7 @@ h2.condensed-bold,
 h3.condensed-bold,
 h4.condensed-bold,
 h5.condensed-bold{
+  margin-bottom: 3vh;
   text-transform: uppercase;
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
 }
@@ -67,12 +94,19 @@ h5.condensed-bold{
 }
 
 .vertical-padding{
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.image-icon{
+  min-height: 130px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  display: block;
 }
 
 .vertical-slide{
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .hero{
@@ -86,7 +120,7 @@ h5.condensed-bold{
 
 @media screen and (min-width: 40em) {
   .hero{
-    min-height: 100vh;
+    min-height: 50vh;
   }
 
   .hero-padding{
