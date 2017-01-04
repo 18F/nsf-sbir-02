@@ -14,7 +14,7 @@
 }
 
 .white-back{
-  height: 90vh;
+  min-height: 90vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
@@ -28,7 +28,7 @@
 }
 .soft-back{
   background: #F3F0EB;
-  height: 80vh;
+  min-height: 80vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
@@ -83,7 +83,7 @@ h3.small-head-text{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .alpha-banner{
@@ -246,6 +246,28 @@ h5.condensed-bold{
   bottom: 0px;
 }
 
+.f2{
+  font-size: 1.25rem;
+}
+
+.f4{
+  font-size: 4rem;
+}
+.f6{
+  font-size: 6rem;
+}
+.v-mid{
+  vertical-align: middle;
+}
+.dib {
+    display: inline-block;
+}
+.mt4{
+  margin-top: 4rem;
+}
+.mt6{
+  margin-top: 6rem;
+}
 @media screen and (min-width: 40em) {
   .hero{
     min-height: 50vh;
