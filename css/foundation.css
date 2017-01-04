@@ -379,7 +379,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #4a4a4a;
+  color: #323A44;
   background: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -1504,11 +1504,14 @@ kbd {
       background-color: #4a4a4a;
       color: #fefefe; }
   .button.secondary {
-    background-color: #777;
-    color: #fefefe; }
+    font-weight: 400;
+    text-transform: none;
+    min-width: 270px;
+    background-color: #fff;
+    color: black; }
     .button.secondary:hover, .button.secondary:focus {
-      background-color: #5f5f5f;
-      color: #fefefe; }
+      background-color: #eee;
+      color: #666; }
   .button.success {
     background-color: #3adb76;
     color: #fefefe; }

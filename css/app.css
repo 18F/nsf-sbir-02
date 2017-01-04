@@ -1,3 +1,132 @@
+.fl{
+  float: left;
+}
+
+.alpha-banner a{
+  color: #0071BB;
+}
+
+.blue-back{
+  height: 90vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background: #E0F3F8;
+}
+
+.white-back{
+  height: 90vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.tan-background .text-content{
+  padding-bottom: 5vh;
+}
+
+.soft-back h2{
+  padding-bottom: 5vh;
+}
+.soft-back{
+  background: #F3F0EB;
+  height: 80vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+div.header{
+  padding-top: 1rem;
+}
+
+.small-bar hr{
+  border-width: 3px;
+  border-color: white;
+}
+
+.hero-padding h1{
+  font-size: 24px;
+  color: white;
+}
+
+.small-bar{
+  max-width: 20px;
+  display: block;
+}
+
+h3.small-head-text{
+  margin-left: 1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  color: black;
+}
+
+.cta-container .button:hover{
+  background: white;
+  color: #fe7b64;
+}
+
+.cta-container .button{
+  background: none;
+  border: 2px solid white;
+  min-width: 300px;
+}
+.cta-container{
+  margin-top: 2rem;
+}
+
+.us-flag-emoji{
+  margin-right: .2em;
+}
+
+.header-image-background{
+  background-image: url('../img/vk284nkoavu-samuel-zeller.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.alpha-banner{
+  font-size: 11px;
+  height: 36px;
+  line-height: 36px;
+  background: #F1F1F1;
+}
+
+.top-nav-links{
+  border: 1px solid white;
+  list-style: none;
+  float: right;
+}
+
+.top-nav-links li:first-child a{
+  border: none;
+}
+
+.top-nav-links li{
+  display: block;
+  border-left: 1px solid white;
+  float: left;
+}
+
+.top-nav-links li a:hover{
+  background: white;
+  color: #fe7b64;
+}
+
+.top-nav-links li a{
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  display: block;
+  width: 155px;
+  padding: 8px;
+  height: 60px;
+}
+
+.top-nav-links li a{
+  font-size: 15px;
+  color: white;
+}
+
 .italics{
   font-style: italic;
 }
@@ -56,7 +185,6 @@
 
 .background-hero-image{
   background-size: cover;
-  background-image: url("../img/hero-image.png");
 }
 
 .padding-push-bottom{
