@@ -6,8 +6,30 @@
   color: #0071BB;
 }
 
+h4 small{
+  text-transform: uppercase;
+  color: #323A44;
+  font-size: 12px;
+}
+
+.column-container h4{
+  font-size: 19px;
+}
+
+.white-bg h4{
+  padding: 15px;
+}
+
+.white-bg{
+  background: white;
+}
+
+.image-wrapper img{
+  width: 100%;
+}
+
 .blue-back{
-  height: 90vh;
+  min-height: 90vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
   background: #E0F3F8;
