@@ -12,6 +12,11 @@ h4 small{
   font-size: 12px;
 }
 
+.apply-back{
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
 .column-container h4{
   font-size: 19px;
 }
