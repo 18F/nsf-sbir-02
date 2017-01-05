@@ -93,6 +93,31 @@ h3.small-head-text{
   background: #F1F1F1;
 }
 
+ul.no-bullets{
+  list-style: none;
+}
+
+.page .top-nav-links{
+  border: 1px solid black;
+}
+
+.page .top-nav-links li{
+  border-left: 1px solid black;
+}
+
+.page .top-nav-links li:first-child{
+  border-left: none;
+}
+
+.top-nav-links li a:hover{
+  background: white;
+  color: #fe7b64;
+}
+
+.page .top-nav-links li a{
+  color: black;
+}
+
 .top-nav-links{
   border: 1px solid white;
   list-style: none;
