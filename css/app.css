@@ -343,10 +343,12 @@ h5.condensed-bold{
 
 .f2{
   font-size: 1.25rem;
+  font-weight: 900;
 }
 
 .f4{
-  font-size: 4rem;
+  font-size: 2rem;
+  margin-top: 60px;
 }
 .f6{
   font-size: 6rem;
